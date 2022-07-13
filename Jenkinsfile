@@ -14,7 +14,7 @@ pipeline{
         
         stage('Build'){
             steps{
-                echo "selected environmemt is : "
+                echo "selected environmemt iss : "
                 //println params.Environment
                 sh "mvn clean install"
             }
